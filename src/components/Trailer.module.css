@@ -1,0 +1,33 @@
+.trailer {
+  background-image: linear-gradient(
+      to right,
+      rgba(236, 82, 75, 0.4),
+      rgba(236, 82, 75, 0.7)
+    ),
+    url(../images/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  padding: 4rem;
+  text-align: center;
+}
+
+.count {
+  font-size: 6rem;
+}
+
+.heading {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.about {
+    margin-top: 8rem;
+}

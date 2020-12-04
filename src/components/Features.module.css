@@ -1,0 +1,64 @@
+.featuresContainer {
+  background-color: #ff8e71;
+  height: 60rem;
+  width: 100%;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  justify-content: center;
+  column-gap: 3rem;
+  row-gap: 3rem;
+  padding: 5rem;
+}
+
+.feature {
+  display: flex;
+  background-color: #c75643;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  transition: all 0.3s ease-out;
+}
+
+.featureAnimation {
+  animation: feature 1s linear;
+}
+
+.logo {
+  font-size: 4rem;
+  margin-right: 2rem;
+}
+
+.text {
+  font-size: 2rem;
+}
+
+@keyframes feature {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 50em) {
+  .featuresContainer {
+    height: 80rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .featuresContainer {
+    height: 60rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .featuresContainer {
+    height: 120rem;
+  }
+}
